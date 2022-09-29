@@ -5,11 +5,11 @@ const client = require("../models/Client")
 // CREATE client 
 router.get('/create', async (req, res) => {
     const client = await new Client({
-        clientName: "Dennis van den Berg",
-        cpf: 6843043925,
-        phoneNumber:41995300613,
-        gender: "M",
-        birthDate:new Date("1990-06-08"),
+        clientName: "Laura",
+        cpf: 123456789,
+        phoneNumber:123456789,
+        gender: "F",
+        birthDate:new Date("1995-19-08"),
         district: "Centro",
         cityCode: "123"
     })
