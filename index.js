@@ -20,6 +20,10 @@ app.use(express.json())
 app.use(helmet())
 app.use(morgan('common'))
 
+app.get('/', (req,res) => {
+    res.send("Welcome to homepage!")
+})
+
 app.use('/api/clients', clientRoute)
 
 app.listen(8800, 
