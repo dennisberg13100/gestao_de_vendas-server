@@ -18,9 +18,6 @@ const ClientSchema = new mongoose.Schema({
     gender: {
         type: String, 
     }, 
-    birthDate: {
-        type: Date, 
-    }, 
     district: {
         type: String, 
     }, 
