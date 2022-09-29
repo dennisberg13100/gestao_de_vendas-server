@@ -26,6 +26,8 @@ app.get('/', (req,res) => {
 
 app.use('/api/clients', clientRoute)
 
-app.listen(8800, 
+const PORT = process.env.PORT || 8800
+
+app.listen(PORT, 
     console.log("Backend server is running!")
 )
