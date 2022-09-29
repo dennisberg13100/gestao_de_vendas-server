@@ -10,12 +10,10 @@ const ClientSchema = new mongoose.Schema({
     cpf: {
         type: Number,
         required: true, 
-        unique: true, 
     }, 
     phoneNumber: {
         type: Number, 
-        required: true, 
-        unique: true
+        required: true,
     },
     gender: {
         type: String, 
