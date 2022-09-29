@@ -9,7 +9,7 @@ router.get('/create', async (req, res) => {
         cpf: 123456789,
         phoneNumber:123456789,
         gender: "F",
-        birthDate:new Date("1995-19-08"),
+        birthDate:"1995-19-08",
         district: "Centro",
         cityCode: "123"
     })
